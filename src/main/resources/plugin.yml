@@ -1,0 +1,11 @@
+name: Shearable
+version: '1.0'
+main: siea.dev.shearable.Shearable
+api-version: '1.21'
+authors: [ sieadev ]
+website: siea.dev
+commands:
+  shearable:
+    description: Configure Shearable settings.
+    usage: /shearable
+    permission: shearable.registry

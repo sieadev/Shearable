@@ -1,0 +1,27 @@
+######################################################################
+# +----------------------------------------------------------------+ #
+# |                            Shearable                           | #
+# |                    Made with <3 by sieadev                     | #
+# +----------------------------------------------------------------+ #
+######################################################################
+
+# Are you also tired of having your inventory flooded with countless
+# plants, flowers, leaves, and other vegetation? Shearable is the solution!
+# With Shearable,  you can limit the drops of plants to shears only.
+# No more crowded inventories, cluttered chests, or annoying plant drops.
+# Shearable is the perfect solution for your server!
+
+# In this section you can set the tool that should be used to shear plants.
+# By default, Shearable uses the shears item, but you are free to change it
+# to any other item.
+tool: SHEARS
+
+# In this section you can change what plants should be affected by Shearable.
+# You can enable or disable the drops of each plant individually.
+# You can also change this setting in-game using the /shearable command.
+plants:
+  KELP: DEFAULT
+  LEAF_LITTER: SHEARABLE
+  FIREFLY_BUSH: SHEARABLE
+  PINK_PETALS: SHEARABLE
+  WILDFLOWERS: SHEARABLE
