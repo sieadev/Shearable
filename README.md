@@ -29,7 +29,10 @@ tool: SHEARS
 # You can enable or disable the drops of each plant individually.
 # You can also change this setting in-game using the /shearable command.
 plants:
-  leaf_litter: true
-  grass: true
+  KELP: DEFAULT
+  LEAF_LITTER: SHEARABLE
+  FIREFLY_BUSH: SHEARABLE
+  PINK_PETALS: SHEARABLE
+  WILDFLOWERS: SHEARABLE
 # ...
 ```
